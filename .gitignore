@@ -1,0 +1,13 @@
+# Go build files
+/bin/
+/*.exe
+*.out
+
+# Go workspace
+/go.work
+
+# OS / editor junk
+.DS_Store
+.idea/
+.vscode/
+

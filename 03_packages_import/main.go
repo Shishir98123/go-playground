@@ -1,0 +1,14 @@
+package main
+
+// imports brings external packages into the file that u r working
+// where actually u need
+import (
+	"fmt"
+	"math"
+)
+
+func main(){
+	// packageName.Functionname -> call a function from a package
+	
+	fmt.Println(math.Pow(2,3))
+}
