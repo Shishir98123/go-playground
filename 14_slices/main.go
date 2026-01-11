@@ -48,4 +48,11 @@ func main(){
 	e := d[1:3:3]
 	fmt.Println(len(e))
 	fmt.Println(cap(e))
+
+	// spread ...
+	todos := []string{"do youtube", "workout everyday"}
+	more := []string{"learn golang"}
+
+	todos = append(todos, more...)
+	fmt.Println(todos)
 }
